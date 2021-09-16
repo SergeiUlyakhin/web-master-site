@@ -402,6 +402,9 @@ body {
   padding-left: 20px;
 }
 
+.social__icons .icon__sec {
+  padding-left: 25px;
+}
 
 
 
@@ -566,8 +569,19 @@ body {
 
 .social__icons img {
   margin-top: 15px;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
+.social__icons img:first-child {
+  padding-left: 0;
+}
+
+.social__icons .icon__last {
+  padding-right: 0;
+}
+
+.author__name h3 {
+  text-align: center;
+}
 }
 
