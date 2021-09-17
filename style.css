@@ -523,6 +523,10 @@ body {
   .card__view {
     width: 70px;
   }
+
+  .cards .card__bg:nth-child(n+5) {
+    display: none;
+  }
 }
 
 
