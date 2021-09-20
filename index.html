@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Web developer</title>
 </head>
@@ -16,9 +17,9 @@
                 </div>
                 <nav class="nav">
                     <a href="#" class="nav__link">ГЛАВНАЯ</a>
-                    <a href="#" class="nav__link">ОБ АВТОРЕ</a>
-                    <a href="#" class="nav__link">ПРОЦЕСС</a>
-                    <a href="#" class="nav__link">КОНТАКТЫ</a>
+                    <a href="#" class="nav__link" data-scroll="#about">ОБ АВТОРЕ</a>
+                    <a href="#" class="nav__link" data-scroll="#process">ПРОЦЕСС</a>
+                    <a href="#" class="nav__link" data-scroll="#contact">КОНТАКТЫ</a>
                 </nav>
             </div>
             
@@ -35,7 +36,7 @@
         </div>
     </header>
 
-    <section class="section">
+    <section class="section" id="about">
         <div class="second-container">
             <h2 class="sub__title">Обо мне</h2>
             <p class="sub__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
@@ -43,7 +44,7 @@
     </section>
 
 
-    <section class="projects">
+    <section class="projects" id="process">
         <div class="container">
             <div class="projects__inner">
                 <div class="project__item">
@@ -152,7 +153,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="second-container">
             <h2 class="sub__title">Хотите веб-сайт?</h2>
             <p class="sub__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
@@ -191,6 +192,6 @@
             </div>
     </div>
     </footer>
-   
+   <script src="app.js"></script>
 </body>
 </html>
